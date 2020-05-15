@@ -257,7 +257,7 @@ nav .branding span {
 }
 .stats__bar .stat__item {
   padding: 2rem;
-  background-color: #fff;
+  background-color: #eaeaea;
 }
 .stats__bar .stat__item.confirmed {
   color: #e74c3c;
