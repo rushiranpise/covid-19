@@ -409,7 +409,7 @@ nav .branding span {
 }
 
 footer {
-  background-color: var(--body-color);
+  background-color: #111;
   color: #e2e8f0;
   padding: 3rem 0;
   text-align: center;
