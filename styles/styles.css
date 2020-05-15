@@ -8,6 +8,19 @@ html {
   scroll-behavior: smooth;
 }
 
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #f34949;
+}
+
+[data-theme="dark"] header {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] a {
+      color: #f34949;
+}
+
 :root {
   --body-background: #ecf0f1;
   --body-color: #4a5568;
@@ -191,6 +204,7 @@ nav .branding span {
   font-size: 0.95rem;
   padding: 0.45em 1.5em;
   border-radius: 3px;
+  color: #f34949;
   border: 1px solid #f34949;
   transition: background-color 180ms ease, color 180ms ease;
 }
@@ -343,6 +357,7 @@ nav .branding span {
 }
 .resources__grid .social a {
   transition: color 180ms ease;
+  color: #000;
 }
 .resources__grid .social a:hover {
   color: #2ecc71;
