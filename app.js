@@ -1,10 +1,10 @@
-const data = "https://api.rootnet.in/covid19-in/stats/latest";
+const data = "https://raw.githubusercontent.com/rushiranpise/covid-19/master/hack";
 const lastUpdated = document.querySelector(".last__updated");
 
 fetch(data)
   .then((response) => response.json())
   .then((data) => {
-    const myData = Object.values(data.data.unofficial-summary);
+    const myData = Object.values(data.data.summary);
     const refreshed = data.lastOriginUpdate;
     const refreshedDate = new Date(refreshed);
     lastUpdated.textContent = refreshedDate;
@@ -12,7 +12,7 @@ fetch(data)
     document.querySelector(".stat__item.confirmed .number").textContent =
       myData[0];
     document.querySelector(".stat__item.active .number").textContent = `${
-      myData[0] - myData[3]
+      myData[0] - myData[3] - myData[4]
     }`;
     document.querySelector(".stat__item.recovered .number").textContent =
       myData[3];
