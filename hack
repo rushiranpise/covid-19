@@ -3,7 +3,7 @@
   "data": {
     "summary": {
       "total": 90648,
-      "confirmedCasesIndian": 53548,
+      "confirmedCasesIndian": 0,
       "confirmedCasesForeign": 0,
       "discharged": 34224,
       "deaths": 2871,
