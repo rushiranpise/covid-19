@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "amb": {
+      "total": 5,
+      "confirmedCasesIndian": 0,
+      "confirmedCasesForeign": 0,
+      "discharged": 1,
+      "deaths": 1,
+      "confirmedButLocationUnidentified": 0
+    }
+       "bad": {
+      "total": 15,
+      "confirmedCasesIndian": 0,
+      "confirmedCasesForeign": 0,
+      "discharged": 1,
+      "deaths": 1,
+      "confirmedButLocationUnidentified": 0
+    }
+  },
+  "lastRefreshed": "2020-05-17T04:06:01.537Z",
+  "lastOriginUpdate": "2020-05-17T02:30:00.000Z"
+}
