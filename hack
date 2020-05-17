@@ -4,7 +4,7 @@
     "summary": {
       "total": 90648,
       "confirmedCasesIndian": 53548,
-      "confirmedCasesForeign": 48,
+      "confirmedCasesForeign": 0,
       "discharged": 34224,
       "deaths": 2871,
       "confirmedButLocationUnidentified": 0
