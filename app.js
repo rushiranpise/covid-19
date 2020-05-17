@@ -1,4 +1,4 @@
-const data = "https://raw.githubusercontent.com/rushiranpise/covid-19/master/hack";
+const data = "https://api.rootnet.in/covid19-in/stats/latest";
 const lastUpdated = document.querySelector(".last__updated");
 
 fetch(data)
