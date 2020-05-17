@@ -4,7 +4,7 @@ const lastUpdated = document.querySelector(".last__updated");
 fetch(data)
   .then((response) => response.json())
   .then((data) => {
-    const myData = Object.values(data.data.summary);
+    const myData = Object.values(data.data.unofficial-summary);
     const refreshed = data.lastOriginUpdate;
     const refreshedDate = new Date(refreshed);
     lastUpdated.textContent = refreshedDate;
