@@ -10,11 +10,11 @@ fetch(data)
     lastUpdated.textContent = refreshedDate;
     console.log(myData); // For Debugging
     document.querySelector(".stat__item.confirmed .number").textContent =
-     myData[2];
+      myData[2];
     document.querySelector(".stat__item.active .number").textContent =      
       myData[1];
     document.querySelector(".stat__item.recovered .number").textContent =
-     myData[4];
+      myData[4];
     document.querySelector(".stat__item.deceased .number").textContent =
       myData[3];
   });
