@@ -1,10 +1,10 @@
-const data = "https://api.rootnet.in/covid19-in/stats/latest";
+const data = "https://api.covid19india.org/state_district_wise.json";
 const lastUpdated = document.querySelector(".last__updated");
 
 fetch(data)
   .then((response) => response.json())
   .then((data) => {
-    const myData = Object.values(data.data.summary);
+    const myData = Object.values(data.Maharashtra.districtData.Nagpur);
     const refreshed = data.lastOriginUpdate;
     const refreshedDate = new Date(refreshed);
     lastUpdated.textContent = refreshedDate;
